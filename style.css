@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  display: block;
+  padding: 18px 0;
+  margin: 0 502px;
+  margin-top: 150px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px rgba(17, 17, 17, 0.151);
+}
+
+.image {
+  width: 85%;
+  position: absolute;
+  top: 18px;
+  left: 19.5px;
+  border-radius: 7px;
+  /* align-items: center; */
+}
+
+.head {
+  margin-top: 255px;
+  font-family: 700;
+  font-weight: bold;
+  margin-left: 22px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+.para {
+  font-size: 14px;
+  margin-left: 22px;
+  margin-bottom: 7px;
+  margin-top: 18px;
+  color: hsl(216, 25%, 60%);
+  font-weight: lighter;
+}
+
+.flexcon {
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+  margin-top: 18px;
+}
+
+.leo {
+  margin-right: 5px;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.clock {
+  margin-left: 45px;
+  margin-right: 5px;
+}
+
+.days {
+  color: hsl(178, 100%, 50%);
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+hr {
+  height: 1px;
+  border-width: 0;
+  color: hsl(215, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
+  width: 81%;
+  margin-left: 22px;
+  margin-top: 15px;
+}
+
+.secflx {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 22px;
+}
+
+.man {
+  width: 15%;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+span {
+  color: hsl(216, 25%, 60%);
+}
+
+.whit {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
